@@ -1,0 +1,16 @@
+Association, Aggregation, and Composition are Object-Oriented Programming (OOP) concepts showing class relationships: Association is a general link (e.g., Student uses Teacher), Aggregation is a "has-a" (whole-part) where parts are independent (e.g., Department has Employees, but Employees can exist alone), while Composition is a stronger "owns-a" (part-of) where the part cannot exist without the whole (e.g., House has Rooms; delete the house, rooms disappear). 
+Association (Generic Relationship)
+Concept: A general "using" or "has-a" link where classes interact but have independent lifecycles.
+Example: A Student and a Course. A student enrolls in courses, but both can exist separately. 
+Aggregation (Weak "Has-a")
+Concept: A "whole-part" relationship where the part can exist independently of the whole (weak ownership).
+Example: A Library and Books. A book can exist without being in that specific library.
+UML: Represented by an unfilled diamond on the 'whole' side. 
+Composition (Strong "Owns-a")
+Concept: A strong "owns-a" or "part-of" relationship where the part's lifecycle is tied to the whole; if the whole is destroyed, so is the part (strong ownership).
+Example: A House and Rooms. Rooms are part of a house and cease to exist if the house is gone.
+UML: Represented by a filled diamond on the 'owning' side. 
+Key Difference Summary
+Association: Any connection; independent lifecycles.
+Aggregation: "Has-a"; parts are independent.
+Composition: "Owns-a"; parts depend on the whole for existence. 
